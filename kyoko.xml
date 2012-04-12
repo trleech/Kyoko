@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+							Kyoko - gedit theme
+
+					Copyright (C) 2012 | Thomas Leech
+
+	This program is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or any 		later version.
+	
+				http://www.gnu.org/licenses/gpl-3.0.html
+-->
+
+<style-scheme id="kyoko" _name="Kyoko" version="1.0">
+  <author>Thomas Leech</author>
+  <_description>Dark theme</_description>
+
+<!-- Colours -->
+	<color name="red" value="#FF0000" />
+	<color name="blue" value="#00A6FF" />
+	<color name="green" value="#6FFF00" />
+	<color name="yellow" value="#FFFB00" />
+	<color name="grey" value="#3B3B35" />
+	<color name="black" value="#000000" />
+	<color name="white" value="#FFFFFF" />
+	<color name="purple" value="#D900FF" />
+	<color name="pink" value="#FF00D9" />
+	<color name="orange" value="#FFB300" />
+	<color name="cyan" value="#00DDFF" />
+	<color name="lime" value="#0DFF00" />
+	<color name="blood" value="#91060F" />
+	<color name="dark" value="#0D0D0D" />
+	<color name="cream" value="#F2EDCE" />
+
+<!-- Universal styles -->
+	<style name="text" foreground="white" background="dark"/>
+	<style name="selection" background="grey"/>
+	<style name="selection-unfocused" foreground="white" background="blue"/>
+	<style name="cursor" foreground="white"/>
+	<style name="secondary-cursor" foreground="cyan"/>
+	<style name="current-line" background="black"/>
+	<style name="line-numbers" foreground="white" background="grey"/>
+	<style name="bracket-match" foreground="white" background="pink" bold="true"/>
+	<style name="bracket-mismatch" foreground="white" background="blue" bold="true"/>
+	<style name="search-match" foreground="black" background="cyan"/>
+
+<!-- Default style -->
+	<style name="def:keyword" foreground="blue" bold="false"/>
+	<style name="def:statement" foreground="lime"/>
+	<style name="def:function" foreground="green"/>
+	<style name="def:preprocessor" foreground="orange" bold="false"/>
+	<style name="def:type" foreground="blue"/>
+	<style name="def:character" foreground="cyan"/>
+	<style name="def:comment" foreground="purple" italic="true"/>
+	<style name="def:number" foreground="yellow"/>
+	<style name="def:string" foreground="white"/>
+	<style name="def:net-address-in-comment" foreground="green" italic="true" underline="true"/>
+	<style name="def:note" foreground="green" background="" bold="true"/>
+	<style name="def:error" background="red" bold="true"/>
+	<style name="def:escape" foreground="green"/>
+	<style name="def:shebang" foreground="orange" bold="false"/>
+	<style name="def:doc-comment-element" italic="true"/>
+	<style name="def:identifier" foreground="green" bold="false"/>
+	<style name="def:specials" foreground="orange"/>
+	<style name="def:variable" foreground="orange"/>
+	<style name="def:boolean" foreground="yellow"/>
+	<style name="def:constant" foreground="green"/>
+	<style name="def:special-constant" foreground="green" bold="true"/>
+	
+<!-- Lua specific style-->
+
+</style-scheme>
